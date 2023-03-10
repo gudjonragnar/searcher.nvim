@@ -18,10 +18,11 @@ To install, simply add it to the list of plugins using your plugin manager of ch
 The default search engine is Google but it also supports easy configuration for DuckDuckGo.
 You can also choose some other search engine, by specifying `base_url`, as long as you they can be searched by appending the search string to the `base_url` e.g. for DuckDuckGo the `base_url` is `http://duckduckgo.com/?q=`.
 
-|   parameter   |   values                 |   default    |
------------------------------------------------------------
-|   `se`        |  `google` | `duckduckgo` |   `google`   |
-|   `base_url`  |  `nil` | `string`        |   nil        |
+
+| parameter  | values                   | default  |
+|------------|--------------------------|----------|
+| `se`       | `google` \| `duckduckgo` | `google` |
+| `base_url` | nil \| string            | nil      |
 
 
 ## Functionality
