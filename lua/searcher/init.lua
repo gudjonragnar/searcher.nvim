@@ -34,6 +34,7 @@ end
 --Module
 M._go = function(term)
   local url = string.gsub(M._conf.base_url .. trim(term), '\n', '  ')
+  url = string.gsub(url, '"', '')
   local command = ':call netrw#BrowseX(\"' .. url .. '\", 1)'
   vim.cmd(command)
 end
